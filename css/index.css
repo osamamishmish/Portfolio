@@ -82,6 +82,31 @@ span{
     display:flex;
     justify-content:center;
 }
+
+.contact{
+    display:flex;
+    flex-flow:column;
+    justify-content:center;
+    margin-top:200px;
+}
+.accounts{
+    display:flex;
+    flex-flow:row;
+    justify-content:center;
+    color:orangered;
+}
+.accounts a{
+    margin-right:10px;
+}
+.accounts a i{
+    font-size:35px;
+    
+}
+.contact h3{
+    color:white;
+    display:flex;
+    justify-content: center;
+}
 @media (max-width:800px){
     .data{
         width:70%;
@@ -91,10 +116,10 @@ span{
         justify-content:center;
     }
     .description{
-        width:80%;
+        width:100%;
+        display:flex;
+        justify-content:center;
     }
-    .img {
-       display:none;
-    }
+    
     
 }
