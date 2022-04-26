@@ -1,0 +1,100 @@
+body{
+    background:url('../imgs/wp137339-black-wood-hd-wallpaper.jpg');
+}
+.menu{
+    width:70%;
+    margin-top:0;
+}
+.title{
+    color:orangered;
+    /* margin-left:100px; */
+    font-size:x-large;
+    display:flex;
+    justify-content:flex-start;
+    text-decoration: none;
+}
+.list{
+    display:flex;
+    margin-left:auto;
+}
+.nav-link{
+    color:orangered;
+    font-size:larger;
+    margin-right:20px;
+    transition: all 0.5s  ease-in;
+    border-bottom: 1px solid transparent;
+} 
+ .hovered{
+    
+    border-bottom:1px solid orangered;
+} 
+.nav-link:hover{
+    color:orangered;
+}
+.navbar-toggler{
+    border-color:orangered;    
+}
+.data{
+    width:70%;
+    display: flex;
+    flex-flow:row;
+    margin-top:170px;
+    justify-content:center;
+    
+}
+.description{
+    width:fit-content;
+    display:flex;
+    flex-flow:column;
+    justify-content:center;
+    
+
+}
+
+/* .img{
+    width:40%;
+    margin-left:auto;
+    
+
+}
+.img img{
+    width:400px;
+    height:300px;
+} */
+.nav-item{
+    display:flex;
+    flex-flow:row;
+}
+i{
+    color:orangered;
+    display:flex;
+    align-self:center;
+}
+.description h2{
+    color:orangered;
+}
+
+span{
+    color:white;
+   
+}
+.name span{
+    display:flex;
+    justify-content:center;
+}
+@media (max-width:800px){
+    .data{
+        width:70%;
+        display: flex;
+        flex-flow:column;
+        margin-top:80px;
+        justify-content:center;
+    }
+    .description{
+        width:80%;
+    }
+    .img {
+       display:none;
+    }
+    
+}
