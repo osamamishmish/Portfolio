@@ -229,6 +229,49 @@ span{
     margin-right:20px;
     font-size: larger;
 }
+.projects{
+    width:80%;
+    display:flex;
+    flex-flow:column;
+    justify-content:center;
+    margin-top:100px;
+
+}
+.projects h1 {
+    color:orangered;
+    display:flex;
+    justify-content:center;
+}
+.top-projects , .bottom-projects{
+    display:flex;
+    flex-flow:row;
+    width:100%;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.card{
+    background-color: black;
+    border:2px solid orangered;
+    border-radius:5px;
+    
+}
+.card img{
+    margin-top:10px;
+}
+.card-title{
+    color:orangered;
+    display: flex;
+    justify-content:center;
+}
+.card-text{
+    color:white;
+}
+.btn{
+    background-color: orangered;
+    color:black;
+    display: flex;
+    justify-content:center;
+}
 @media (max-width:800px){
     .data{
         width:70%;
