@@ -1,6 +1,20 @@
 body{
     background:url('../imgs/wp137339-black-wood-hd-wallpaper.jpg');
+    
 }
+body::-webkit-scrollbar {
+    width: 5px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: black;        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color:orangered;   
+    border-radius: 20px;       
+    border: 3px solid orangered;  
+  }
 .menu{
     width:70%;
     margin-top:0;
@@ -88,6 +102,7 @@ span{
     flex-flow:column;
     justify-content:center;
     margin-top:200px;
+  
 }
 .accounts{
     display:flex;
@@ -107,6 +122,113 @@ span{
     display:flex;
     justify-content: center;
 }
+.skills{
+    width:70%;
+    display:flex;
+    flex-flow:column;
+    justify-content:center;
+    height:fit-content;
+}
+.skills h1{
+    display:flex;
+    justify-content: center;
+    color:white;
+    margin-top:80px;
+}
+.skills .row{
+    display:flex;
+    flex-flow:row;
+    width:100%;
+    justify-content:space-between;
+}
+.skills .row div{
+    width:20%;
+    height:100px;
+    border:1px solid orangered;
+    border-radius:5px;
+}
+.top{
+    margin-top:100px;
+}
+.bottom{
+    margin-top:50px;
+}
+.top div i{
+    font-size:100px;
+    display:flex;
+    justify-content:center;
+}
+.bottom div i{
+    font-size:100px;
+    display:flex;
+    justify-content:center;
+}
+.tools{
+    width:70%;
+    display:flex;
+    flex-flow:column;
+    justify-content:center;
+    height:fit-content;
+    margin-top:200px;
+}
+.tools h1{
+    color:white;
+    display:flex;
+    justify-content: center;
+}
+.tools-list{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    margin-top:50px;
+}
+.tools-list div{
+    width:25%;
+    height:100px;
+    border:1px solid orangered;
+    border-radius:5px;
+}
+.tools-list div i{
+    font-size:100px;
+    display:flex;
+    justify-content:center;
+}
+.footer{
+    display:flex;
+    flex-flow:row;
+    background-color: black;
+    justify-content: center;
+    margin-top:100px;
+}
+.f-home{
+    
+    margin-top:110px;
+}
+.footer .left{
+    color:white;
+    width:30%;
+}
+.footer .left span{
+    color:orangered;
+    margin-left:5px;
+    
+}
+.footer .middle{
+    color:white;
+    width:30%;
+    margin-left:auto;
+    margin-right: auto;
+}
+.footer div{
+    display:flex;
+    flex-flow:row;
+    
+}
+.footer div i{
+    color:orangered;
+    margin-right:20px;
+    font-size: larger;
+}
 @media (max-width:800px){
     .data{
         width:70%;
@@ -119,6 +241,39 @@ span{
         width:100%;
         display:flex;
         justify-content:center;
+    }
+    .skills .row div{
+        border:none;
+    }
+    .tools-list div{
+        border:none;
+    }
+    .footer{
+        display:flex;
+        flex-flow:column;
+        justify-content:center;
+        
+    }
+    .footer .left{
+        display:flex;
+        justify-content:center;
+        width:100%;
+        margin-top:15px;
+    }
+    .footer .middle{
+        display:flex;
+        justify-content:center;
+        width:100%;
+        margin-top:15px;
+    }
+    .footer div{
+        display:flex;
+        justify-content:center;
+        width:100%;
+        margin-top:15px;
+    }
+    .f-home{
+        margin-top:30px;
     }
     
     

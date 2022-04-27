@@ -8,6 +8,7 @@ $(".nav-link").on("mouseleave",function(){
 
 $(window).on("load",function(){
     $(".description").children().hide();
+    $(".f-home").hide();
     $(".description").children().eq(0).show().delay(2000).hide(3000);
     $(".description").children().eq(1).delay(3000).show(2000).delay(3000).hide(2000);
     $(".description").children().eq(2).delay(5000).show(2000).delay(3000).hide(2000);
@@ -18,6 +19,7 @@ $(window).on("load",function(){
     $(".description").children().eq(7).delay(18000).show(2000);
     $(".description").children().eq(8).delay(18000).show(2000);
     $(".description").children().eq(9).delay(18000).show(2000);
+    $(".f-home").delay(18000).show(2000);
     
 })
        
