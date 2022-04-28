@@ -343,42 +343,22 @@ span{
 
     }
       .top-projects div{
-        width:70%;
+        width:65%;
         margin-left:auto;
         margin-right:auto;
         margin-top:15px;
        
     }
     .bottom-projects div{
-    width:70%;
+    width:65%;
     margin-left:auto;
         margin-right:auto;
         margin-top:15px;
     }   
+    .button{
+        height:40px;
+    }
     
     
 }
-/* @media (min-width:800px) and (max-width:1000){
-    .projects{
-        width:100%;
-        
-    }
-    .top-projects , .bottom-projects{
-        display:flex;
-        flex-flow:row;
-        width:100%;
-        margin-left:auto;
-        margin-right:auto;
-        justify-content: space-between;
 
-    }
-     .top-projects div{
-        width:33%;
-        
-       
-    }
-    .bottom-projects div{
-    width:33%;
-   
-    } 
-} */
