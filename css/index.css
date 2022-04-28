@@ -274,6 +274,18 @@ span{
     justify-content:center;
     
 }
+.the-cv{
+    width:80%;
+    height:fit-content;
+    display:flex;
+    flex-flow:column;
+    justify-content: center;
+}
+
+.the-cv img{
+    width:100%;
+    margin-top:100px;
+}
 @media (max-width:800px){
     .data{
         width:70%;
@@ -358,6 +370,7 @@ span{
     .button{
         height:40px;
     }
+    
     
     
 }

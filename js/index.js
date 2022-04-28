@@ -23,6 +23,11 @@ $(window).on("load",function(){
     
 })
        
-//$(".description").children().eq(1).hide(9000);
+$(".the-cv button").on("click", function () {
+    var fileName = "../imgs/cv.png";
+    saveAs( fileName); // This is a function please download the file from the link
+    //Download file from this link  
+    // https://raw.githubusercontent.com/eligrey/FileSaver.js/master/dist/FileSaver.js
+});
     
     
