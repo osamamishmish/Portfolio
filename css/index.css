@@ -253,6 +253,7 @@ span{
     background-color: black;
     border:2px solid orangered;
     border-radius:5px;
+    width:25%;
     
 }
 .card img{
@@ -266,11 +267,12 @@ span{
 .card-text{
     color:white;
 }
-.btn{
+.button{
     background-color: orangered;
     color:black;
     display: flex;
     justify-content:center;
+    
 }
 @media (max-width:800px){
     .data{
@@ -318,6 +320,65 @@ span{
     .f-home{
         margin-top:30px;
     }
+   
+    .card{
+        
+        width:30%;
+        
+    }
+     .projects{
+        width:80%;
+        display:flex;
+        flex-flow:column;
+        justify-content: center;
+    
+        
+    }
+    .top-projects , .bottom-projects{
+        display:flex;
+        flex-flow:column;
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
+
+    }
+      .top-projects div{
+        width:70%;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:15px;
+       
+    }
+    .bottom-projects div{
+    width:70%;
+    margin-left:auto;
+        margin-right:auto;
+        margin-top:15px;
+    }   
     
     
 }
+/* @media (min-width:800px) and (max-width:1000){
+    .projects{
+        width:100%;
+        
+    }
+    .top-projects , .bottom-projects{
+        display:flex;
+        flex-flow:row;
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
+        justify-content: space-between;
+
+    }
+     .top-projects div{
+        width:33%;
+        
+       
+    }
+    .bottom-projects div{
+    width:33%;
+   
+    } 
+} */
