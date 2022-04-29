@@ -201,8 +201,9 @@ span{
     margin-top:100px;
 }
 .f-home{
-    
+    -moz-margin-top:110px;
     margin-top:110px;
+    
 }
 .footer .left{
     color:white;
