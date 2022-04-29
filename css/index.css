@@ -201,6 +201,7 @@ span{
     margin-top:100px;
 }
 .f-home{
+    -webkit-margin-top:110px;
     -moz-margin-top:110px;
     margin-top:110px;
     
