@@ -376,4 +376,10 @@ span{
     
     
 }
+@media (min-width:1540px){
+    .f-home{
+        -moz-margin-top:230px;
+        margin-top:300px;
+    }
+}
 
