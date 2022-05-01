@@ -192,8 +192,7 @@ span{
 .tools-list div{
     width:25%;
     height:100px;
-    border:1px solid orangered;
-    border-radius:5px;
+   
 }
 .tools-list div i{
     font-size:100px;
