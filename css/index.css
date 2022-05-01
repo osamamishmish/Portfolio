@@ -144,14 +144,21 @@ span{
 .skills .row div{
     width:20%;
     height:100px;
-    border:1px solid orangered;
-    border-radius:5px;
+    /* border:1px solid orangered;
+    border-radius:5px; */
+    display:flex;
+    flex-flow:column;
+}
+.skills .row h2{
+    color:white;
+    display:flex;
+    justify-content:center;
 }
 .top{
     margin-top:100px;
 }
 .bottom{
-    margin-top:50px;
+    margin-top:150px;
 }
 .top div i{
     font-size:100px;
